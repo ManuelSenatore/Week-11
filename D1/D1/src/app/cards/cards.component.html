@@ -1,0 +1,9 @@
+<div class="card" style="width: 18rem;">
+  <img [src]="cards.url" class="card-img-top" alt="photo">
+  <div class="card-body">
+    <h5 class="card-title">{{cards.title}}</h5>
+    <p class="card-text">{{cards.id}}</p>
+    <button class="btn btn-primary" (click)="likePhoto(cards.likes)">Like</button>
+    <button class="btn btn-danger" (click)="deletePhoto(cards)">Elimina</button>
+  </div>
+</div>

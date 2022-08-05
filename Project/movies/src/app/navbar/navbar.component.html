@@ -1,0 +1,14 @@
+<nav>
+  <div class="destra">
+   <a [routerLink]="['/user']"></a>
+    <p>user</p>
+  </div>
+  <div class="sinistra">
+      <li><a [routerLink]="['/']">Home</a></li>
+      <li><a [routerLink]="['/login']"  *ngIf="!isLogged">Login</a></li>
+      <li><a [routerLink]="['/signup']"  *ngIf="!isLogged">Signup</a></li>
+      <li><a [routerLink]="['/']" (click)="logout()"  *ngIf="isLogged">Logout</a></li>
+      <li><a [routerLink]="['/genres']">Generi</a></li>
+      <li><a [routerLink]="['/favorites']" *ngIf="isLogged">Favorites</a></li>
+  </div>
+</nav>

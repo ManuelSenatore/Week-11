@@ -1,0 +1,2 @@
+<p>Foto piaciute: {{x}}</p>
+<app-cards *ngFor="let c of cards" [cards]="c" (editEvent)="likePhoto($event)" (deleteEvent)="deletePhoto($event)"></app-cards>

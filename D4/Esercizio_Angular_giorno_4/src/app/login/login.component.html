@@ -1,0 +1,10 @@
+<form [formGroup]="form" (ngSubmit)="login()">
+  <input type="text" formControlName="email" placeholder="email" />
+  <input type="password" formControlName="password" placeholder="password" />
+  <button type="submit">LOGIN</button>
+</form>
+<div *ngIf="isLogged">
+  <h2>login avvenuto!</h2>
+  <button [routerLink]="['/']">Continua sul sito</button>
+</div>
+<h2 *ngIf="error">PASSWORD O EMAIL ERRATI</h2>

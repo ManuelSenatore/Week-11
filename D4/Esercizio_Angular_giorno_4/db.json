@@ -1,0 +1,41 @@
+{
+  "users": [
+    {
+      "email": "asd@asd.asd",
+      "password": "$2a$10$b7EpIej4MBGVG0p6dnqqnODvnxJ13wSYhzA0hetFpzTIpb9qjtOn2",
+      "id": 1
+    },
+    {
+      "email": "budka@budka.akdub",
+      "password": "$2a$10$/g3Rcn9K92c4UJLw30KNDuWP4U7atuJCXRJ2Y7acgYBUGQDps9mdq",
+      "id": 2
+    },
+    {
+      "email": "123@123.123",
+      "password": "$2a$10$DDqNOXPm50ULMmlKHjurx.Q7qQQXoEYO7ZeHiHgS25SzZFR3y4cZy",
+      "id": 3
+    },
+    {
+      "email": "111@111.111",
+      "password": "$2a$10$7YWipn7oY3f7I0CkmhIMfu3dIPwPvAXljMH4k1.NcW5J.aGSj4INW",
+      "id": 4
+    }
+  ],
+  "posts": [
+    {
+      "id": 0,
+      "title": "Todo1",
+      "favorites": false
+    },
+    {
+      "id": 1,
+      "title": "Todo2",
+      "favorites": false
+    },
+    {
+      "id": 2,
+      "title": "Todo3",
+      "favorites": false
+    }
+  ]
+}

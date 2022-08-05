@@ -1,0 +1,19 @@
+nav{
+  display:flex;
+  height: 15vh;
+  justify-content: space-between;
+  margin: 0 3rem;
+  border-bottom: 1px solid #423D3D;
+ div{
+  li{
+    display: inline;
+    margin-left: 1rem;
+    list-style: none;
+
+    a{
+      text-decoration: none;
+      color: #423D3D;
+    }
+ }
+  }
+}
